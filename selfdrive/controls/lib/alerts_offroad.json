@@ -1,0 +1,56 @@
+{
+  "Offroad_ChargeDisabled": {
+    "text": "车辆熄火 30 小时后将停止为 EON 充电，再次启动车辆后，EON 恢复充电。",
+    "severity": 0
+  },
+  "Offroad_TemperatureTooHigh": {
+    "text": "装置温度过高，系统暂不可用。",
+    "severity": 1
+  },
+  "Offroad_ConnectivityNeededPrompt": {
+    "text": "请立即连网检查更新，否则 MyPilot 将不可用。",
+    "severity": 0,
+    "_comment": "Append the number of days at the end of the text"
+  },
+  "Offroad_ConnectivityNeeded": {
+    "text": "请连网并检查更新，连网更新后 MyPilot 才能正常使用。",
+    "severity": 1
+  },
+  "Offroad_UpdateFailed": {
+    "text": "无法下载更新\n",
+    "severity": 1,
+    "_comment": "Append the command and error to the text."
+  },
+  "Offroad_InvalidTime": {
+    "text": "系统时间设置错误，系统无法启用。请连网更新时间设置。",
+    "severity": 1
+  },
+  "Offroad_IsTakingSnapshot": {
+    "text": "相机拍摄中，完成前系统无法启动。",
+    "severity": 0
+  },
+  "Offroad_NeosUpdate": {
+    "text": "您设备的操作系统正在后台下载更新。当它准备好安装时，系统会提示您进行更新。",
+    "severity": 0
+  },
+  "Offroad_UnofficialHardware": {
+    "text": "设备注册失败。它不会连接或上传到comma.ai服务器，也不会从comma.ai获得任何支持。如果这是官方设备，请联系support@comma.ai.",
+    "severity": 1
+  },
+  "Offroad_StorageMissing": {
+    "text": "NVMe驱动器未安装。",
+    "severity": 1
+  },
+  "Offroad_BadNvme": {
+    "text": "检测到不支持NVMe驱动器。由于不支持NVMe，设备可能会更耗电并且可能会过热。",
+    "severity": 1
+  },
+  "Offroad_CarUnrecognized": {
+    "text": "mypilot 无法识别您的汽车。您的汽车要么不受支持，要么它的 ECU 未被识别。请提交拉取请求以将固件版本添加到适当的车辆。",
+    "severity": 0
+  },
+  "Offroad_NoFirmware": {
+    "text": "mypilot 无法识别您的汽车。检查电缆的完整性并确保所有连接牢固，特别是逗号电源已完全插入车辆的 OBD-II 端口。",
+    "severity": 0
+  }
+}

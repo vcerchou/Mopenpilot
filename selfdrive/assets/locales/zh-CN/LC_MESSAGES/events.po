@@ -1,0 +1,594 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-31 11:33+0800\n"
+"PO-Revision-Date: 2021-03-31 11:40+0800\n"
+"Last-Translator: afa005 <afa@openpilot.net>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: selfdrive/controls/lib/events.py:148
+msgid "MyPilot Unavailable"
+msgstr "系统不可用"
+
+#: selfdrive/controls/lib/events.py:155 selfdrive/controls/lib/events.py:162
+msgid "TAKE CONTROL IMMEDIATELY"
+msgstr "立即接管"
+
+#: selfdrive/controls/lib/events.py:187 selfdrive/controls/lib/events.py:319
+#: selfdrive/controls/lib/events.py:346 selfdrive/controls/lib/events.py:410
+#: selfdrive/controls/lib/events.py:462 selfdrive/controls/lib/events.py:526
+msgid "TAKE CONTROL"
+msgstr "请求接管"
+
+#: selfdrive/controls/lib/events.py:188
+#, python-format
+msgid "Steer Unavailable Below %s"
+msgstr "自动转向暂不可用，车速低于 %s"
+
+#: selfdrive/controls/lib/events.py:196
+#, python-format
+msgid "Calibration in Progress: %(calPerc)d%%"
+msgstr "正在校准中：%(calPerc)d%%"
+
+#: selfdrive/controls/lib/events.py:197
+#, python-format
+msgid "Drive Above %s"
+msgstr "车速请高于 %s"
+
+#: selfdrive/controls/lib/events.py:204
+msgid "Poor GPS reception"
+msgstr "GPS 信号不良"
+
+#: selfdrive/controls/lib/events.py:205
+msgid "If sky is visible, contact support"
+msgstr "如果您不是在地下室或隧道，请联系客服"
+
+#: selfdrive/controls/lib/events.py:205
+msgid "Check GPS antenna placement"
+msgstr "请检查 GPS 天线位置"
+
+#: selfdrive/controls/lib/events.py:210
+msgid "Cruise Mode Disabled"
+msgstr "巡航模式已关闭"
+
+#: selfdrive/controls/lib/events.py:212
+msgid "Main Switch Off"
+msgstr "主开关已关闭"
+
+#: selfdrive/controls/lib/events.py:222
+msgid "DEBUG ALERT"
+msgstr "调试信息"
+
+#: selfdrive/controls/lib/events.py:224
+msgid "Speed Below %s"
+msgstr "车速低于 %s"
+
+#: selfdrive/controls/lib/events.py:230
+msgid "Be ready to take over at any time"
+msgstr "准备好随时接管"
+
+#: selfdrive/controls/lib/events.py:231 selfdrive/controls/lib/events.py:239
+#: selfdrive/controls/lib/events.py:247 selfdrive/controls/lib/events.py:255
+msgid "Always keep hands on wheel and eyes on road"
+msgstr "请手扶方向盘并时刻注意路况"
+
+#: selfdrive/controls/lib/events.py:238
+msgid "WARNING: This branch is not tested"
+msgstr "警告: 该分支未经测试"
+
+#: selfdrive/controls/lib/events.py:246
+msgid "Dashcam mode"
+msgstr "行车记录模式"
+
+#: selfdrive/controls/lib/events.py:254
+msgid "Dashcam mode for unsupported car"
+msgstr "行车记录模式 (暂不支持的车型)"
+
+#: selfdrive/controls/lib/events.py:262 selfdrive/controls/lib/events.py:287
+msgid "Dashcam Mode"
+msgstr "行车记录模式"
+
+#: selfdrive/controls/lib/events.py:270
+msgid "Stock LKAS is turned on"
+msgstr "原车 LKAS 已启用"
+
+#: selfdrive/controls/lib/events.py:271
+msgid "Turn off stock LKAS to engage"
+msgstr "关闭原车 LKAS 后启动"
+
+#: selfdrive/controls/lib/events.py:279
+msgid "Community Feature Detected"
+msgstr "检测到社区功能"
+
+#: selfdrive/controls/lib/events.py:280
+msgid "Enable Community Features in Developer Settings"
+msgstr "请在开发者设置中启用社区功能"
+
+#: selfdrive/controls/lib/events.py:288
+msgid "Car Unrecognized"
+msgstr "未识别车型"
+
+#: selfdrive/controls/lib/events.py:295 selfdrive/controls/lib/events.py:303
+#: selfdrive/controls/lib/events.py:311
+msgid "BRAKE!"
+msgstr "刹车!"
+
+#: selfdrive/controls/lib/events.py:296
+msgid "Stock AEB: Risk of Collision"
+msgstr "原车 AEB: 碰撞预警"
+
+#: selfdrive/controls/lib/events.py:304
+msgid "Stock FCW: Risk of Collision"
+msgstr "原车 FCW: 碰撞预警"
+
+#: selfdrive/controls/lib/events.py:312
+msgid "Risk of Collision"
+msgstr "碰撞预警"
+
+#: selfdrive/controls/lib/events.py:320
+msgid "Lane Departure Detected"
+msgstr "车道偏离警告"
+
+#: selfdrive/controls/lib/events.py:329
+msgid "MyPilot will not brake while gas pressed"
+msgstr "油门踏板踩下时系统不会进行刹车制动"
+
+#: selfdrive/controls/lib/events.py:338
+msgid "Vehicle Parameter Identification Failed"
+msgstr "车辆参数识别失败"
+
+#: selfdrive/controls/lib/events.py:347 selfdrive/controls/lib/events.py:527
+#: selfdrive/controls/lib/events.py:530
+msgid "Steering Temporarily Unavailable"
+msgstr "自动转向暂时不可用"
+
+#: selfdrive/controls/lib/events.py:354
+msgid "KEEP EYES ON ROAD: Driver Distracted"
+msgstr "注意路况: 注意力不集中"
+
+#: selfdrive/controls/lib/events.py:362
+msgid "KEEP EYES ON ROAD"
+msgstr "注意路况"
+
+#: selfdrive/controls/lib/events.py:363
+msgid "Driver Appears Distracted"
+msgstr "注意力不集中"
+
+#: selfdrive/controls/lib/events.py:370 selfdrive/controls/lib/events.py:394
+msgid "DISENGAGE IMMEDIATELY"
+msgstr "系统退出"
+
+#: selfdrive/controls/lib/events.py:371
+msgid "Driver Was Distracted"
+msgstr "注意力不集中"
+
+#: selfdrive/controls/lib/events.py:378
+msgid "TOUCH STEERING WHEEL: No Face Detected"
+msgstr "请手扶方向盘：没有检测到驾驶员"
+
+#: selfdrive/controls/lib/events.py:386
+msgid "TOUCH STEERING WHEEL"
+msgstr "请手扶方向盘"
+
+#: selfdrive/controls/lib/events.py:387
+msgid "Driver Is Unresponsive"
+msgstr "驾驶员没有响应"
+
+#: selfdrive/controls/lib/events.py:395
+msgid "Driver Was Unresponsive"
+msgstr "驾驶员没有响应"
+
+#: selfdrive/controls/lib/events.py:402
+msgid "CHECK DRIVER FACE VISIBILITY"
+msgstr "请检查前摄像头是否可以看到驾驶员"
+
+#: selfdrive/controls/lib/events.py:403
+msgid "Driver Monitor Model Output Uncertain"
+msgstr "驾驶员监控模型输出不明确"
+
+#: selfdrive/controls/lib/events.py:411
+msgid "Resume Driving Manually"
+msgstr "请手动恢复行驶"
+
+#: selfdrive/controls/lib/events.py:418
+msgid "STOPPED"
+msgstr "已停车"
+
+#: selfdrive/controls/lib/events.py:419
+msgid "Press Resume to Move"
+msgstr "请按 RES 键继续行驶"
+
+#: selfdrive/controls/lib/events.py:430
+msgid "Steer Left to Start Lane Change"
+msgstr "往左打方向盘开始切换车道"
+
+#: selfdrive/controls/lib/events.py:431 selfdrive/controls/lib/events.py:439
+#: selfdrive/controls/lib/events.py:447 selfdrive/controls/lib/events.py:455
+msgid "Monitor Other Vehicles"
+msgstr "请注意其他车辆"
+
+#: selfdrive/controls/lib/events.py:438
+msgid "Steer Right to Start Lane Change"
+msgstr "往右打方向盘开始切换车道"
+
+#: selfdrive/controls/lib/events.py:446
+msgid "Car Detected in Blindspot"
+msgstr "盲区中检测到其他车辆"
+
+#: selfdrive/controls/lib/events.py:454
+msgid "Changing Lane"
+msgstr "切换车道中"
+
+#: selfdrive/controls/lib/events.py:463
+msgid "Turn Exceeds Steering Limit"
+msgstr "超出方向盘转向限制"
+
+#: selfdrive/controls/lib/events.py:469
+msgid "Fan Malfunction"
+msgstr "风扇故障"
+
+#: selfdrive/controls/lib/events.py:469 selfdrive/controls/lib/events.py:473
+#: selfdrive/controls/lib/events.py:477
+msgid "Contact Support"
+msgstr "请联系客服"
+
+#: selfdrive/controls/lib/events.py:473
+msgid "Camera Malfunction"
+msgstr "摄像头故障"
+
+#: selfdrive/controls/lib/events.py:477
+msgid "GPS Malfunction"
+msgstr "GPS 故障"
+
+#: selfdrive/controls/lib/events.py:500
+msgid "Brake Hold Active"
+msgstr "制动保持已启动"
+
+#: selfdrive/controls/lib/events.py:505
+msgid "Park Brake Engaged"
+msgstr "停车制动已启动"
+
+#: selfdrive/controls/lib/events.py:510
+msgid "Pedal Pressed During Attempt"
+msgstr "刹车/油门踏板已踩下"
+
+#: selfdrive/controls/lib/events.py:511
+msgid "Camera Frame Rate Low"
+msgstr "相机帧率过低"
+
+#: selfdrive/controls/lib/events.py:521
+msgid "Enable Adaptive Cruise"
+msgstr "请启用自适应巡航"
+
+#: selfdrive/controls/lib/events.py:536
+msgid "Out of Storage"
+msgstr "存储不足"
+
+#: selfdrive/controls/lib/events.py:540
+msgid "Out of Storage Space"
+msgstr "存储空间不足"
+
+#: selfdrive/controls/lib/events.py:545
+msgid "Speed Too Low"
+msgstr "车速过慢"
+
+#: selfdrive/controls/lib/events.py:550 selfdrive/controls/lib/events.py:554
+msgid "No Data from Device Sensors"
+msgstr "设备传感器数据缺失"
+
+#: selfdrive/controls/lib/events.py:551 selfdrive/controls/lib/events.py:562
+#: selfdrive/controls/lib/events.py:650
+msgid "Reboot your Device"
+msgstr "请重启设备"
+
+#: selfdrive/controls/lib/events.py:559
+msgid "Release Pedal to Engage"
+msgstr "释放踏板"
+
+#: selfdrive/controls/lib/events.py:562 selfdrive/controls/lib/events.py:563
+msgid "Speaker not found"
+msgstr "未发现扬声器"
+
+#: selfdrive/controls/lib/events.py:567
+msgid "Distraction Level Too High"
+msgstr "注意力高度不集中"
+
+#: selfdrive/controls/lib/events.py:572 selfdrive/controls/lib/events.py:576
+msgid "System Overheated"
+msgstr "系统过热"
+
+#: selfdrive/controls/lib/events.py:577
+msgid "System overheated"
+msgstr "系统过热"
+
+#: selfdrive/controls/lib/events.py:581 selfdrive/controls/lib/events.py:582
+msgid "Gear not D"
+msgstr "请切换到 D 档"
+
+#: selfdrive/controls/lib/events.py:586
+msgid "Calibration Invalid"
+msgstr "校准失败"
+
+#: selfdrive/controls/lib/events.py:586
+msgid "Remount Device and Recalibrate"
+msgstr "请调整设备的位置后重新校准"
+
+#: selfdrive/controls/lib/events.py:587
+msgid "Calibration Invalid: Reposition Device and Recalibrate"
+msgstr "校准失败：请调整设备的位置后重新校准"
+
+#: selfdrive/controls/lib/events.py:588
+msgid "Calibration Invalid: Reposition Device & Recalibrate"
+msgstr "校准失败：请调整设备的位置后重新校准"
+
+#: selfdrive/controls/lib/events.py:593 selfdrive/controls/lib/events.py:594
+msgid "Calibration in Progress"
+msgstr "正在校准摄像头"
+
+#: selfdrive/controls/lib/events.py:598
+msgid "Door Open"
+msgstr "车门未关好"
+
+#: selfdrive/controls/lib/events.py:599
+msgid "Door open"
+msgstr "车门未关好"
+
+#: selfdrive/controls/lib/events.py:603
+msgid "Seatbelt Unlatched"
+msgstr "安全带未系好"
+
+#: selfdrive/controls/lib/events.py:604
+msgid "Seatbelt unlatched"
+msgstr "安全带未系好"
+
+#: selfdrive/controls/lib/events.py:608 selfdrive/controls/lib/events.py:609
+msgid "ESP Off"
+msgstr "ESP 未打开"
+
+#: selfdrive/controls/lib/events.py:613 selfdrive/controls/lib/events.py:614
+msgid "Low Battery"
+msgstr "电池电量过低"
+
+#: selfdrive/controls/lib/events.py:618 selfdrive/controls/lib/events.py:619
+msgid "Communication Issue between Processes"
+msgstr "进程通信异常"
+
+#: selfdrive/controls/lib/events.py:624
+msgid "System Malfunction: Reboot Your Device"
+msgstr "系统故障: 请重启设备"
+
+#: selfdrive/controls/lib/events.py:629 selfdrive/controls/lib/events.py:630
+msgid "Radar Error: Restart the Car"
+msgstr "雷达总线故障：请重新启动车辆"
+
+#: selfdrive/controls/lib/events.py:634 selfdrive/controls/lib/events.py:635
+msgid "Driving model lagging"
+msgstr "自动驾驶模型输出延迟"
+
+#: selfdrive/controls/lib/events.py:639 selfdrive/controls/lib/events.py:640
+msgid "Model Output Uncertain"
+msgstr "视觉模型输出不明确"
+
+#: selfdrive/controls/lib/events.py:644 selfdrive/controls/lib/events.py:645
+msgid "Device Fell Off Mount"
+msgstr "检测到设备已掉落"
+
+#: selfdrive/controls/lib/events.py:649 selfdrive/controls/lib/events.py:651
+msgid "Low Memory: Reboot Your Device"
+msgstr "剩余内存不足: 请重启设备"
+
+#: selfdrive/controls/lib/events.py:650
+msgid "Low Memory"
+msgstr "剩余内存不足"
+
+#: selfdrive/controls/lib/events.py:656 selfdrive/controls/lib/events.py:657
+msgid "Controls Failed"
+msgstr "车辆控制故障"
+
+#: selfdrive/controls/lib/events.py:661
+msgid "Controls Mismatch"
+msgstr "车辆控制不匹配"
+
+#: selfdrive/controls/lib/events.py:665 selfdrive/controls/lib/events.py:667
+#: selfdrive/controls/lib/events.py:671
+msgid "CAN Error: Check Connections"
+msgstr "CAN 总线故障：请检查数据线连接"
+
+#: selfdrive/controls/lib/events.py:772
+msgid "CAN Error"
+msgstr "CAN 总线故障"
+
+#: selfdrive/controls/lib/events.py:782
+msgid "CAN Bus Disconnected"
+msgstr "CAN 总线未连接"
+
+#: selfdrive/controls/lib/events.py:784
+msgid "CAN Bus Disconnected: Likely Faulty Cable"
+msgstr "CAN 总线未连接: 可能连接线束有故障"
+
+#: selfdrive/controls/lib/events.py:788
+msgid "CAN Bus Disconnected: Check Connections"
+msgstr "CAN 总线未连接: 请检查"
+
+#: selfdrive/controls/lib/events.py:675 selfdrive/controls/lib/events.py:681
+msgid "LKAS Fault: Restart the Car"
+msgstr "LKAS 故障：请重新启动车辆"
+
+#: selfdrive/controls/lib/events.py:677
+msgid "LKAS Fault: Restart the car to engage"
+msgstr "LKAS 故障：请重新启动车辆后启用"
+
+#: selfdrive/controls/lib/events.py:685 selfdrive/controls/lib/events.py:691
+#: selfdrive/controls/lib/events.py:755
+msgid "Cruise Fault: Restart the Car"
+msgstr "巡航系统故障：请重新启动车辆"
+
+#: selfdrive/controls/lib/events.py:681
+msgid "Low Communication Rate between Processes"
+msgstr "进程之间消息通讯帧率过低"
+
+#: selfdrive/controls/lib/events.py:687 selfdrive/controls/lib/events.py:751
+msgid "Cruise Fault: Restart the car to engage"
+msgstr "巡航系统故障：请重新启动车辆后启用"
+
+#: selfdrive/controls/lib/events.py:696
+msgid ""
+"Reverse\n"
+"Gear"
+msgstr "当前在 R 档"
+
+#: selfdrive/controls/lib/events.py:700 selfdrive/controls/lib/events.py:701
+msgid "Reverse Gear"
+msgstr "当前在 R 档"
+
+#: selfdrive/controls/lib/events.py:705
+msgid "Cruise Is Off"
+msgstr "巡航系统未打开"
+
+#: selfdrive/controls/lib/events.py:709 selfdrive/controls/lib/events.py:710
+msgid "Planner Solution Error"
+msgstr "路径规划失败"
+
+#: selfdrive/controls/lib/events.py:714 selfdrive/controls/lib/events.py:715
+#: selfdrive/controls/lib/events.py:716
+msgid "Harness Malfunction"
+msgstr "Harness 故障"
+
+#: selfdrive/controls/lib/events.py:715
+msgid "Check Hardware"
+msgstr "请检查硬件设备"
+
+#: selfdrive/controls/lib/events.py:721 selfdrive/controls/lib/events.py:730
+msgid "MyPilot Canceled"
+msgstr "系统已退出"
+
+#: selfdrive/controls/lib/events.py:722
+msgid "No close lead car"
+msgstr "没有检测到前车"
+
+#: selfdrive/controls/lib/events.py:725
+msgid "No Close Lead Car"
+msgstr "没有检测到前车"
+
+#: selfdrive/controls/lib/events.py:731
+msgid "Speed too low"
+msgstr "车速过慢"
+
+#: selfdrive/controls/lib/events.py:738 selfdrive/controls/lib/events.py:743
+msgid "Speed Too High"
+msgstr "车速过快"
+
+#: selfdrive/controls/lib/events.py:739
+msgid "Model uncertain at this speed"
+msgstr "当前车速下模型输出不可靠"
+
+#: selfdrive/controls/lib/events.py:744
+msgid "Slow down to engage"
+msgstr "请减速后启用"
+
+#: selfdrive/controls/lib/events.py:760 selfdrive/controls/lib/events.py:764
+#: selfdrive/controls/lib/events.py:765
+msgid "System Overcooled"
+msgstr "系统温度过低"
+
+#: selfdrive/controls/lib/events.py:771
+msgid "WARNING"
+msgstr "警告"
+
+#: selfdrive/controls/lib/events.py:772
+msgid "Grab wheel to start bypass"
+msgstr "请减速后启用"
+
+#: selfdrive/controls/lib/events.py:779
+msgid "BYPASSING"
+msgstr "绕过时间限制中"
+
+#: selfdrive/controls/lib/events.py:780
+msgid "HOLD WHEEL"
+msgstr "握好方向盘"
+
+#: selfdrive/controls/lib/events.py:787
+msgid "Bypassed!"
+msgstr "时间限制已绕过！"
+
+#: selfdrive/controls/lib/events.py:788
+msgid "Release wheel when ready"
+msgstr "准备好后请松开放向盘"
+
+#~ msgid "WARNING: Original EON deprecated"
+#~ msgstr "警告: 已停止支持一加手机"
+
+#~ msgid "Device will no longer update"
+#~ msgstr "设备将不再升级"
+
+#~ msgid "Slow down to resume operation"
+#~ msgstr "请减速后重新启用"
+
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Controls Initializing"
+msgstr "正在初始化控制"
+
+#: selfdrive/controls/lib/events.py:217
+msgid "WARNING: No Exact Match on Car Model"
+msgstr "警告：不完全匹配车型"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Closest Match:"
+msgstr "最近匹配车型:"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Check All Connections"
+msgstr "检查所有连接"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "MyPilot Not Available"
+msgstr "MyPilot不可用"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Enable Community Features in Settings to Engage"
+msgstr "在设置中打开社区功能开关"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Localizer unstable"
+msgstr "航向仪不稳定"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Cruise Faulted"
+msgstr "巡航故障"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Road Camera Error"
+msgstr "车道摄像机异常"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Driver Camera Error"
+msgstr "驾驶员摄像头异常"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "Wide Road Camera Error"
+msgstr "宽车道摄像头异常"
+
+#: selfdrive/controls/lib/events.py:236
+msgid "USB Error: Reboot Your Device"
+msgstr "USB异常: 请重启您的设备"
+
+#: selfdrive/controls/lib/events.py:842
+msgid "LKAS Disabled: Enable LKAS to engage"
+msgstr "LKAS已关闭: 请打开LKAS"
+
+#: selfdrive/controls/lib/events.py:843
+msgid "LKAS Disabled"
+msgstr "LKAS已关闭"

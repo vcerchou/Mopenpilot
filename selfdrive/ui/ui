@@ -1,0 +1,10 @@
+#!/bin/sh
+cd "$(dirname "$0")"
+if [ -f /EON ]; then
+  export LD_LIBRARY_PATH="/system/lib64:../../third_party/mapbox-gl-native-qt/aarch64:$LD_LIBRARY_PATH"
+elif [ -f /TICI ]; then
+  export LD_LIBRARY_PATH="/system/lib64:$LD_LIBRARY_PATH"
+fi
+export QT_PLUGIN_PATH="../../third_party/qt-plugins/$(uname -m)"
+export QT_DBL_CLICK_DIST=150
+exec ./_ui

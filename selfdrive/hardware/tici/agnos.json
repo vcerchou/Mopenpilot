@@ -1,0 +1,172 @@
+[
+  {
+    "name": "ImageFv",
+    "url": "https://mypilot.com.cn/agnos/A845/imagefv.elf.xz",
+    "hash": "13c0731724797d630bbd1383d9fae8307385bb4c5717581ff1b83e4a65a96dda",
+    "hash_raw": "13c0731724797d630bbd1383d9fae8307385bb4c5717581ff1b83e4a65a96dda",
+    "size": 20480,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "aop",
+    "url": "https://mypilot.com.cn/agnos/A845/aop.mbn.xz",
+    "hash": "25e1df8a6d844ddc087cca327d805b0b287fa1626270aee3db331e2d7f02677f",
+    "hash_raw": "25e1df8a6d844ddc087cca327d805b0b287fa1626270aee3db331e2d7f02677f",
+    "size": 184188,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "bluetooth",
+    "url": "https://mypilot.com.cn/agnos/A845/BTFM.bin.xz",
+    "hash": "d789342a517679eb563be88216cdbce7c489197316fa8e01a73a20eafb71ae2e",
+    "hash_raw": "d789342a517679eb563be88216cdbce7c489197316fa8e01a73a20eafb71ae2e",
+    "size": 667648,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "cmnlib64",
+    "url": "https://mypilot.com.cn/agnos/A845/cmnlib64.mbn.xz",
+    "hash": "67c5c0cba6342d4a07ec1668b66dfea51c23795cbdfb3aa39b58bf93d55bc133",
+    "hash_raw": "67c5c0cba6342d4a07ec1668b66dfea51c23795cbdfb3aa39b58bf93d55bc133",
+    "size": 496406,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "cmnlib",
+    "url": "https://mypilot.com.cn/agnos/A845/cmnlib.mbn.xz",
+    "hash": "10d883c3e3ad6ec627b95d888ad95fcf9b82c6d1f6db6ecbdf65bd945f85938f",
+    "hash_raw": "10d883c3e3ad6ec627b95d888ad95fcf9b82c6d1f6db6ecbdf65bd945f85938f",
+    "size": 376516,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "dsp",
+    "url": "https://mypilot.com.cn/agnos/A845/dspso.bin.xz",
+    "hash": "19796991c42ee415ca2f68b4204cd4556809934b92e1451bb7b8006809f493bf",
+    "hash_raw": "19796991c42ee415ca2f68b4204cd4556809934b92e1451bb7b8006809f493bf",
+    "size": 33554432,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "hyp",
+    "url": "https://mypilot.com.cn/agnos/A845/hyp.mbn.xz",
+    "hash": "b46bfa49197a746ceec7142a51e9e9ecd7503e0a8e5c60d2dbf6a050e71f8ff8",
+    "hash_raw": "b46bfa49197a746ceec7142a51e9e9ecd7503e0a8e5c60d2dbf6a050e71f8ff8",
+    "size": 385872,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "keymaster",
+    "url": "https://mypilot.com.cn/agnos/A845/keymaster64.mbn.xz",
+    "hash": "ccdc00810ee6f3ff2a34e0c7a8b683dc74d9c2c6c0e40c71c3b421b139b76486",
+    "hash_raw": "ccdc00810ee6f3ff2a34e0c7a8b683dc74d9c2c6c0e40c71c3b421b139b76486",
+    "size": 232947,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "modem",
+    "url": "https://mypilot.com.cn/agnos/A845/NON-HLOS.bin.xz",
+    "hash": "551ba98675c3e2448d68abb09a748f12ccf951e790a37c4385a760f501b9a1c1",
+    "hash_raw": "551ba98675c3e2448d68abb09a748f12ccf951e790a37c4385a760f501b9a1c1",
+    "size": 44994560,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "qupfw",
+    "url": "https://mypilot.com.cn/agnos/A845/qupv3fw.elf.xz",
+    "hash": "d4f88dcf6991737bab540a48297dddbaae395dd40683d286e8be120a3a212aff",
+    "hash_raw": "d4f88dcf6991737bab540a48297dddbaae395dd40683d286e8be120a3a212aff",
+    "size": 65487,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "storsec",
+    "url": "https://mypilot.com.cn/agnos/A845/storsec.mbn.xz",
+    "hash": "52b740b85409e83308c599fc988bf5eaa808de316996918ee65b4d6cdd54a7f7",
+    "hash_raw": "52b740b85409e83308c599fc988bf5eaa808de316996918ee65b4d6cdd54a7f7",
+    "size": 20777,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "tz",
+    "url": "https://mypilot.com.cn/agnos/A845/tz.mbn.xz",
+    "hash": "ad0f48fba38277a69682e51b1b4610ac3b07c173245fb2a1cb25c66352d75f13",
+    "hash_raw": "ad0f48fba38277a69682e51b1b4610ac3b07c173245fb2a1cb25c66352d75f13",
+    "size": 2056192,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "boot",
+    "url": "https://mypilot.com.cn/agnos/4/boot.img.xz",
+    "hash": "f30129e64b6b333e91c3a2eabc35fd3912c4acc353adf2c0a945ed2e597f6133",
+    "hash_raw": "f30129e64b6b333e91c3a2eabc35fd3912c4acc353adf2c0a945ed2e597f6133",
+    "size": 14776320,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "abl",
+    "url": "https://mypilot.com.cn/agnos/4/abl.img.xz",
+    "hash": "ab4068f005ed9cb7fbca55c6d658880df1abfb1a4e6afb64f3fc5e64dac6fc82",
+    "hash_raw": "ab4068f005ed9cb7fbca55c6d658880df1abfb1a4e6afb64f3fc5e64dac6fc82",
+    "size": 274432,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "xbl",
+    "url": "https://mypilot.com.cn/agnos/4/xbl.img.xz",
+    "hash": "2b1b67aa918cd127f2b0b4ed0a372f3a93676cf9d270bd3e56329516efdc5a35",
+    "hash_raw": "2b1b67aa918cd127f2b0b4ed0a372f3a93676cf9d270bd3e56329516efdc5a35",
+    "size": 3670016,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "xbl_config",
+    "url": "https://mypilot.com.cn/agnos/4/xbl_config.img.xz",
+    "hash": "3aa926394b4cec464300bfc0e7ab77d50889b38041138c60cd84c397930b38ad",
+    "hash_raw": "3aa926394b4cec464300bfc0e7ab77d50889b38041138c60cd84c397930b38ad",
+    "size": 364544,
+    "sparse": false,
+    "full_check": true,
+    "has_ab": true
+  },
+  {
+    "name": "system",
+    "url": "https://mypilot.com.cn/agnos/4/system.img.xz",
+    "hash": "b8538c763dbb2861030613028e6d081e42532cf39a1c0c9ba9a55794852b54eb",
+    "hash_raw": "f789d947f60be990babe9ebe456840868aaf2e577f58f53d342c30ca04d2d68d",
+    "size": 10737418240,
+    "sparse": true,
+    "full_check": false,
+    "has_ab": true
+  }
+]
